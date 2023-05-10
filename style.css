@@ -1,0 +1,107 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+body{
+    background-color: rgb(39, 32, 32);
+    overflow: scroll;
+}
+/*  */
+.logo{
+    margin-left: 2px;
+    color: rgb(234, 92, 32);
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+    gap: 10%;
+    margin-left: 25%;
+    /* background-color: rgb(219, 36, 36); */
+    border: 30%;
+    padding: 2px;
+    font-size: 30px;
+    color: aliceblue;
+}
+.intro{
+    display: flex;
+    margin-bottom: 30%;
+    text-align: center;
+    color: aliceblue;
+    
+}
+.image img{
+    margin-top: 30%;
+    border-radius: 80%;
+    margin-left: 35%;
+    height: 60%;
+    width: 80%;
+    animation: floatImage 4s ease-in-out infinite;
+    border: solid 25px;
+    color: rgb(180, 3, 177);
+
+}
+#www{
+    color: rgb(226, 58, 58);
+}
+@keyframes floatImage{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateY(-2,4rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+
+}
+
+
+.word{
+    margin-top: 5%;
+    margin-left: 20%;
+    color: aliceblue;
+    font-size: 30px;
+}
+.info{
+    display: flex;
+    margin-bottom: 30%;
+    text-align: center;
+}
+.about{
+    margin-top: -10%;
+    margin-right: 20%;
+    font-size: larger;
+    font-weight: lighter;
+    color: rgb(0, 247, 255);
+
+}
+.image2 img{
+    /* margin-bottom: -60%;
+    border-radius: 80%;
+    margin-left: 35%;
+    height: 60%;
+    width: 80%;
+    animation: floatImage 4s ease-in-out infinite;
+    border: solid 25px;
+    color: rgb(180, 3, 177); */
+
+
+
+
+    margin-top: -50%;
+    border-radius: 80%;
+    margin-left: 30%;
+    animation: floatImage 3s ease-in-out infinite;
+    border: solid 25px;
+    color: rgb(26, 124, 159);
+    width: 50%;
+    animation: floatImage 3s ease-in-out infinite;
+    border: solid 25px;
+    color: rgb(26, 124, 159); 
+    border: solid 25px;
+    color: rgb(180, 3, 177);
+}
+
+
